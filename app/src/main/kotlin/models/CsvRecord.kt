@@ -4,6 +4,6 @@ data class CsvRecord(
     val id: Int,
     val name: String,
     val email: String,
-    val department: Int,
+    val department: String,
     val salary: Double
 )
